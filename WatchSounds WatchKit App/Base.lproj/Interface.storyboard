@@ -1,16 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14256" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="16096" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14243"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14219"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="16012"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchSounds_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="0.5" alignment="left" id="lGz-Ll-ZOn">
+                            <items>
+                                <button width="0.5" height="1" heightAdjustment="1" alignment="left" title="1" id="taT-ck-ttP">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="font" type="system" pointSize="55"/>
+                                    <connections>
+                                        <action selector="playSound" destination="AgC-eL-Hgc" id="jig-3b-Kn9"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" height="1" heightAdjustment="1" alignment="left" title="2" id="8Fy-gc-QaE">
+                                    <fontDescription key="font" type="system" pointSize="55"/>
+                                    <connections>
+                                        <action selector="playSound2" destination="AgC-eL-Hgc" id="4Nd-Kj-4H0"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.5" alignment="left" id="Nu8-xh-NX0">
+                            <items>
+                                <button width="0.5" height="1" heightAdjustment="1" alignment="left" title="3" id="xvp-xF-ica">
+                                    <fontDescription key="font" type="system" pointSize="55"/>
+                                    <connections>
+                                        <action selector="playSound3" destination="AgC-eL-Hgc" id="jsa-FE-Jjl"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" height="1" heightAdjustment="1" alignment="left" title="4" id="GUz-lS-V98">
+                                    <fontDescription key="font" type="system" pointSize="55"/>
+                                    <connections>
+                                        <action selector="playSound4" destination="AgC-eL-Hgc" id="lxj-LH-fxM"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <segue destination="3Qi-gU-lxP" kind="relationship" relationship="nextPage" id="rY4-er-qqu"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Table Interface Controller-->
+        <scene sceneID="iUW-Kv-ib8">
+            <objects>
+                <controller id="3Qi-gU-lxP" customClass="TableInterfaceController" customModule="WatchSounds_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="EGN-FI-hcs">
+                            <items>
+                                <tableRow identifier="Row" id="DAz-tn-WYo" customClass="Soundrow" customModule="WatchSounds_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="O4b-fJ-gZq">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="zNB-8X-U7u"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="SoundRowCellLabel" destination="zNB-8X-U7u" id="Fo1-qc-MC6"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="SoundRowTable" destination="EGN-FI-hcs" id="rOL-iQ-LKt"/>
+                        <segue destination="jtN-eT-aAl" kind="relationship" relationship="nextPage" id="O0V-Eo-wJS"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="468" y="251"/>
+        </scene>
+        <!--Custom Record View Controller Interface Controller-->
+        <scene sceneID="6fC-Rb-Jei">
+            <objects>
+                <controller id="jtN-eT-aAl" customClass="CustomRecordViewControllerInterfaceController" customModule="WatchSounds_WatchKit_Extension">
+                    <items>
+                        <button width="74" height="84" alignment="center" backgroundImage="record" id="ZkH-Ui-WHM"/>
+                    </items>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="732" y="340"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -27,21 +107,24 @@
                     </connections>
                 </notificationController>
             </objects>
-            <point key="canvasLocation" x="220" y="643"/>
+            <point key="canvasLocation" x="220" y="650"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="WatchSounds_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="Niz-AI-uX2">
             <objects>
-                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="WatchSounds_WatchKit_App" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="468" y="345"/>
+            <point key="canvasLocation" x="483" y="507"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="record" width="860" height="935"/>
+    </resources>
 </document>

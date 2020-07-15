@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,25 @@
 		1D17B19B24BA69B800573820 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D17B19A24BA69B800573820 /* ExtensionDelegate.swift */; };
 		1D17B19D24BA69B800573820 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D17B19C24BA69B800573820 /* NotificationController.swift */; };
 		1D17B19F24BA69BC00573820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D17B19E24BA69BC00573820 /* Assets.xcassets */; };
+		1D17B1B024BA83F700573820 /* PlaySounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D17B1AF24BA83F700573820 /* PlaySounds.swift */; };
+		1D17B1B324BAD36800573820 /* (FREE) Lofi Type Beat - I'm really high but I love you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D17B1B224BAD36800573820 /* (FREE) Lofi Type Beat - I'm really high but I love you.mp3 */; };
+		1D17B1B424BAD36800573820 /* (FREE) Lofi Type Beat - I'm really high but I love you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D17B1B224BAD36800573820 /* (FREE) Lofi Type Beat - I'm really high but I love you.mp3 */; };
+		1D17B1B524BAD36800573820 /* (FREE) Lofi Type Beat - I'm really high but I love you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D17B1B224BAD36800573820 /* (FREE) Lofi Type Beat - I'm really high but I love you.mp3 */; };
+		1D17B1B724BAD36E00573820 /* [free] ride isaiah rashad x curren$y x ygtut type beat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D17B1B624BAD36E00573820 /* [free] ride isaiah rashad x curren$y x ygtut type beat.mp3 */; };
+		1D17B1B824BAD36E00573820 /* [free] ride isaiah rashad x curren$y x ygtut type beat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D17B1B624BAD36E00573820 /* [free] ride isaiah rashad x curren$y x ygtut type beat.mp3 */; };
+		1D17B1B924BAD36E00573820 /* [free] ride isaiah rashad x curren$y x ygtut type beat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D17B1B624BAD36E00573820 /* [free] ride isaiah rashad x curren$y x ygtut type beat.mp3 */; };
+		1D17B1BB24BAD38800573820 /* J Dilla - look of love (LoopInstrumental).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D17B1BA24BAD38800573820 /* J Dilla - look of love (LoopInstrumental).mp3 */; };
+		1D17B1BC24BAD38800573820 /* J Dilla - look of love (LoopInstrumental).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D17B1BA24BAD38800573820 /* J Dilla - look of love (LoopInstrumental).mp3 */; };
+		1D17B1BD24BAD38800573820 /* J Dilla - look of love (LoopInstrumental).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D17B1BA24BAD38800573820 /* J Dilla - look of love (LoopInstrumental).mp3 */; };
+		1D17B1BF24BAD39100573820 /* J Dilla - Believe In God (Instrumental).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D17B1BE24BAD39100573820 /* J Dilla - Believe In God (Instrumental).mp3 */; };
+		1D17B1C024BAD39100573820 /* J Dilla - Believe In God (Instrumental).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D17B1BE24BAD39100573820 /* J Dilla - Believe In God (Instrumental).mp3 */; };
+		1D17B1C124BAD39100573820 /* J Dilla - Believe In God (Instrumental).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D17B1BE24BAD39100573820 /* J Dilla - Believe In God (Instrumental).mp3 */; };
+		1D17B1C324BAD4C800573820 /* Peaceful Riddim Reggae Instrumental Beat Chronixx x Protoje type beat 2020.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D17B1C224BAD4C800573820 /* Peaceful Riddim Reggae Instrumental Beat Chronixx x Protoje type beat 2020.mp3 */; };
+		1D17B1C424BAD4C800573820 /* Peaceful Riddim Reggae Instrumental Beat Chronixx x Protoje type beat 2020.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D17B1C224BAD4C800573820 /* Peaceful Riddim Reggae Instrumental Beat Chronixx x Protoje type beat 2020.mp3 */; };
+		1D17B1C524BAD4C800573820 /* Peaceful Riddim Reggae Instrumental Beat Chronixx x Protoje type beat 2020.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D17B1C224BAD4C800573820 /* Peaceful Riddim Reggae Instrumental Beat Chronixx x Protoje type beat 2020.mp3 */; };
+		1DB3D58524BADC410001423D /* TableInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3D58424BADC410001423D /* TableInterfaceController.swift */; };
+		1DB3D58724BB80E40001423D /* Soundrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3D58624BB80E40001423D /* Soundrow.swift */; };
+		1DB3D58924BC0AA50001423D /* CustomRecordViewControllerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3D58824BC0AA50001423D /* CustomRecordViewControllerInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +91,15 @@
 		1D17B19E24BA69BC00573820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D17B1A024BA69BC00573820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D17B1A124BA69BC00573820 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1D17B1AF24BA83F700573820 /* PlaySounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySounds.swift; sourceTree = "<group>"; };
+		1D17B1B224BAD36800573820 /* (FREE) Lofi Type Beat - I'm really high but I love you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "(FREE) Lofi Type Beat - I'm really high but I love you.mp3"; path = "../../../Downloads/(FREE) Lofi Type Beat - I'm really high but I love you.mp3"; sourceTree = "<group>"; };
+		1D17B1B624BAD36E00573820 /* [free] ride isaiah rashad x curren$y x ygtut type beat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "[free] ride isaiah rashad x curren$y x ygtut type beat.mp3"; path = "../../../Downloads/[free] ride isaiah rashad x curren$y x ygtut type beat.mp3"; sourceTree = "<group>"; };
+		1D17B1BA24BAD38800573820 /* J Dilla - look of love (LoopInstrumental).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "J Dilla - look of love (LoopInstrumental).mp3"; path = "../../../Downloads/J Dilla - look of love (LoopInstrumental).mp3"; sourceTree = "<group>"; };
+		1D17B1BE24BAD39100573820 /* J Dilla - Believe In God (Instrumental).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "J Dilla - Believe In God (Instrumental).mp3"; path = "../../../Downloads/J Dilla - Believe In God (Instrumental).mp3"; sourceTree = "<group>"; };
+		1D17B1C224BAD4C800573820 /* Peaceful Riddim Reggae Instrumental Beat Chronixx x Protoje type beat 2020.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Peaceful Riddim Reggae Instrumental Beat Chronixx x Protoje type beat 2020.mp3"; path = "../../../Downloads/Peaceful Riddim Reggae Instrumental Beat Chronixx x Protoje type beat 2020.mp3"; sourceTree = "<group>"; };
+		1DB3D58424BADC410001423D /* TableInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableInterfaceController.swift; sourceTree = "<group>"; };
+		1DB3D58624BB80E40001423D /* Soundrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soundrow.swift; sourceTree = "<group>"; };
+		1DB3D58824BC0AA50001423D /* CustomRecordViewControllerInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRecordViewControllerInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				1D17B18824BA69AF00573820 /* WatchSounds WatchKit App */,
+				1D17B1B124BAD2EB00573820 /* Audio */,
 				1D17B19724BA69B800573820 /* WatchSounds WatchKit Extension */,
 				1D17B18124BA69AF00573820 /* Products */,
 			);
@@ -117,14 +146,30 @@
 		1D17B19724BA69B800573820 /* WatchSounds WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1D17B1AF24BA83F700573820 /* PlaySounds.swift */,
 				1D17B19824BA69B800573820 /* InterfaceController.swift */,
 				1D17B19A24BA69B800573820 /* ExtensionDelegate.swift */,
 				1D17B19C24BA69B800573820 /* NotificationController.swift */,
 				1D17B19E24BA69BC00573820 /* Assets.xcassets */,
 				1D17B1A024BA69BC00573820 /* Info.plist */,
 				1D17B1A124BA69BC00573820 /* PushNotificationPayload.apns */,
+				1DB3D58424BADC410001423D /* TableInterfaceController.swift */,
+				1DB3D58624BB80E40001423D /* Soundrow.swift */,
+				1DB3D58824BC0AA50001423D /* CustomRecordViewControllerInterfaceController.swift */,
 			);
 			path = "WatchSounds WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1D17B1B124BAD2EB00573820 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				1D17B1B224BAD36800573820 /* (FREE) Lofi Type Beat - I'm really high but I love you.mp3 */,
+				1D17B1B624BAD36E00573820 /* [free] ride isaiah rashad x curren$y x ygtut type beat.mp3 */,
+				1D17B1BE24BAD39100573820 /* J Dilla - Believe In God (Instrumental).mp3 */,
+				1D17B1BA24BAD38800573820 /* J Dilla - look of love (LoopInstrumental).mp3 */,
+				1D17B1C224BAD4C800573820 /* Peaceful Riddim Reggae Instrumental Beat Chronixx x Protoje type beat 2020.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +188,9 @@
 				1D17B18724BA69AF00573820 /* PBXTargetDependency */,
 			);
 			name = WatchSounds;
+			packageProductDependencies = (
+				1DB3D58B24BC0C680001423D /* Alamofire */,
+			);
 			productName = WatchSounds;
 			productReference = 1D17B18024BA69AF00573820 /* WatchSounds.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
@@ -211,6 +259,9 @@
 				Base,
 			);
 			mainGroup = 1D17B17924BA69AF00573820;
+			packageReferences = (
+				1DB3D58A24BC0C680001423D /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 1D17B18124BA69AF00573820 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -227,6 +278,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D17B1BB24BAD38800573820 /* J Dilla - look of love (LoopInstrumental).mp3 in Resources */,
+				1D17B1B324BAD36800573820 /* (FREE) Lofi Type Beat - I'm really high but I love you.mp3 in Resources */,
+				1D17B1BF24BAD39100573820 /* J Dilla - Believe In God (Instrumental).mp3 in Resources */,
+				1D17B1B724BAD36E00573820 /* [free] ride isaiah rashad x curren$y x ygtut type beat.mp3 in Resources */,
+				1D17B1C324BAD4C800573820 /* Peaceful Riddim Reggae Instrumental Beat Chronixx x Protoje type beat 2020.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,8 +290,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D17B1C424BAD4C800573820 /* Peaceful Riddim Reggae Instrumental Beat Chronixx x Protoje type beat 2020.mp3 in Resources */,
+				1D17B1C024BAD39100573820 /* J Dilla - Believe In God (Instrumental).mp3 in Resources */,
+				1D17B1B424BAD36800573820 /* (FREE) Lofi Type Beat - I'm really high but I love you.mp3 in Resources */,
 				1D17B18D24BA69B800573820 /* Assets.xcassets in Resources */,
 				1D17B18B24BA69AF00573820 /* Interface.storyboard in Resources */,
+				1D17B1B824BAD36E00573820 /* [free] ride isaiah rashad x curren$y x ygtut type beat.mp3 in Resources */,
+				1D17B1BC24BAD38800573820 /* J Dilla - look of love (LoopInstrumental).mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +305,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D17B19F24BA69BC00573820 /* Assets.xcassets in Resources */,
+				1D17B1BD24BAD38800573820 /* J Dilla - look of love (LoopInstrumental).mp3 in Resources */,
+				1D17B1C124BAD39100573820 /* J Dilla - Believe In God (Instrumental).mp3 in Resources */,
+				1D17B1C524BAD4C800573820 /* Peaceful Riddim Reggae Instrumental Beat Chronixx x Protoje type beat 2020.mp3 in Resources */,
+				1D17B1B924BAD36E00573820 /* [free] ride isaiah rashad x curren$y x ygtut type beat.mp3 in Resources */,
+				1D17B1B524BAD36800573820 /* (FREE) Lofi Type Beat - I'm really high but I love you.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +320,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DB3D58524BADC410001423D /* TableInterfaceController.swift in Sources */,
 				1D17B19D24BA69B800573820 /* NotificationController.swift in Sources */,
+				1D17B1B024BA83F700573820 /* PlaySounds.swift in Sources */,
 				1D17B19B24BA69B800573820 /* ExtensionDelegate.swift in Sources */,
+				1DB3D58924BC0AA50001423D /* CustomRecordViewControllerInterfaceController.swift in Sources */,
+				1DB3D58724BB80E40001423D /* Soundrow.swift in Sources */,
 				1D17B19924BA69B800573820 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -547,6 +617,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1DB3D58A24BC0C680001423D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1DB3D58B24BC0C680001423D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DB3D58A24BC0C680001423D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1D17B17A24BA69AF00573820 /* Project object */;
 }
